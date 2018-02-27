@@ -1,0 +1,461 @@
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+font-family: "DIN Next W01 Regular", Arial, sans-serif;}
+
+
+/*nav -bar*/
+div ul li{
+	list-style-type: none;
+}
+div.nav-bar{
+	position:relative;
+ 	background-color: #1A1919;
+ 	padding:10px 20px;
+ 	height:47px;
+ 	width:97%;
+ 	color:white;
+ 	
+ }
+
+/*<Right side of the nav*/
+svg{
+	 width: 100px;
+  height: 100px;
+  position:absolute;
+  float:left;
+  fill:white;
+  transform: translate(-106px,-40px);
+
+
+}
+
+svg:hover{
+	cursor:pointer;
+}
+
+span.location{
+	color:#ffcb04;
+}
+span.location:hover{
+	cursor:help;
+}
+
+ div.nav-bar-left>ul>li{
+ 	margin-left:10px;
+ }
+
+div.nav-bar-left{
+	float:left;
+	margin-top:16px;
+	margin-left:120px;
+	font-size: 12px;
+
+}
+/*right side of the nav bar*/
+div.nav-bar-right{
+	margin-left:32%;
+	/*border:2px solid red;*/
+	width:60%;
+
+}
+
+
+div.nav-bar-right>ul>li{
+  display:inline-block;
+  text-align:center;
+  font-size: 14px;
+  margin-top:14px;
+  padding-left:14px;
+
+}
+
+/*drop down menu*/
+div.nav-bar-right ul li ul {
+	display:block;
+	text-align:left !important;
+	background-color:#2D2C2C;
+	box-shadow:0px 3px 5px rgba(0,0,0,0.2);
+	/*padding-top:46px;*/
+	width:190px;
+	margin-left:-70px;
+	margin-top:20px;
+
+/*	z-index:1;*/
+	
+}
+
+div.menu{
+	position:absolute;
+	line-height:40px;
+	z-index:1;
+}
+
+/*sub menus*/
+div.menu ul li ul{
+	position:absolute;
+	margin-top:-25px;
+	margin-left:-190px !important;
+
+}
+
+
+div.nav-bar-right>ul>li>a:after{
+	content: "\f0d7";  
+    font-family: FontAwesome;
+    width:100px;
+    color:#ffcb04;
+    padding-left:4px;
+    vertical-align:middle;
+}
+div.nav-bar-right>ul>li>a#blog:after{
+	display:none;
+	}
+
+	
+	/*button student login*/
+div.button {
+	position:absolute;
+	border:1.5px solid #fefefe;
+	width:150px;
+	height:36px;
+	font-size:12px;
+	right:2%;
+	top:22%;
+	box-shadow:0.9px 1px #fefefe;  
+	font-weight:bold;
+	
+}
+
+div.button a {
+	position:absolute;
+    /*top: 50%;
+    left: 50%;*/
+    margin-top:12px;
+    margin-left:24px;
+    /*transform: translateX(-50%) translateY(-50%);*/
+    transition: all .25s ease-in;
+ 
+
+	}
+	/*hover effects*/
+
+
+div.button:hover{
+	background-color: white;
+	color:black;
+
+}
+
+
+ div ul li a:hover{
+ 	color:#dfb100;
+ 	cursor: pointer;
+ }
+
+
+  div.nav-bar-right ul li ul li {
+ 	display:none;
+
+ }
+
+
+ 
+ div.nav-bar-right ul li:hover div>ul>li{
+	display:block;
+	cursor: pointer;
+		
+}
+ div.menu ul li:hover ul li {
+ 	display:block;
+ 	cursor: pointer;
+
+ }
+
+
+
+ 
+ div.search-box input{
+ 	width:25%;
+ 	height:30px;
+ 	margin-top:20px;
+ 	margin-left:18px;
+ 	opacity:0.8;
+ 	font-family:"DIN Next W01 Regular", Arial, sans-serif;
+ 	font-size:16px;
+ 	border:1px solid black;
+ }
+  form div.search-box span:hover:after{
+ 	cursor:pointer;
+ 	color:white;
+ 	background-color:black;
+ }
+  form div.search-box span:after{
+  	content: "\f002";  
+    font-family: FontAwesome;
+    background-color:#dfb100;
+    border:1px solid black;
+    padding:8px 17px 8px 17px;
+   font-size:18px;
+   margin-left:2px;
+   vertical-align:middle;
+
+    color:black;
+ 
+ 	
+ }
+ section.content{
+ 	background-image:linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.6)
+    ), url('https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/677/big/rawpixel-com-358750-unsplash.jpg?1519420222');
+  background-size:cover;
+  background-position:0px 0px;
+  opacity:1;
+  /*filter: brightness(79%)*/;
+
+
+  height:404px;
+ width:100%;
+ 
+   }
+   
+   div.contents{
+   	position:absolute;
+   	top:210px;
+   	margin-left:12px;
+   	
+   	color:white;
+   	width:900px;
+
+   }
+   div.contents {
+   	line-height:30px;
+   }
+
+   div.contents h2{
+   	padding-top:14px;
+   	padding-bottom:8px;
+   	line-height:40px;
+
+   }
+   div.contents h2 a:hover{
+   	color:#ffcb04 !important;
+
+
+   }
+ /*  div#info{
+   	width:100%;
+   	height:;
+   }*/
+   div.container{
+   	width:317px;
+   	height:462px ;  /*	margin-top:-55px;*/
+   /*	border:5px solid red;*/
+
+
+   	}
+
+div.column-1{
+	margin-top:50px;
+	margin-left:20px;
+}
+div.container1{
+	position:absolute;
+	margin-left:346px;
+	margin-top:-519px;
+
+	
+}
+div.container2{
+	position:absolute;
+	margin-left:685px;
+	margin-top:-519px;
+}
+div.container3{
+	position:absolute;
+	margin-left:0px;
+	margin-top:-50px;
+	
+}
+div.container4{
+	position:absolute;
+	margin-left:346px;
+	margin-top:-50px;
+}
+div.container5{
+	position:absolute;
+	margin-left:685px;
+	margin-top:-50px;
+}
+	
+	
+
+  
+
+
+   	div.columns{
+   		/*float:left;*/
+   		height: 432px;
+   		width:317px;
+   		margin-left:20px;
+   		margin-top:56px;
+   		border: 1px solid #EDEDED;
+   		background: #f7f7f7;
+		
+   	}
+
+   	div.headerpic{
+   		background-image: url('https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/676/small/SetApart.jpg?1518812490');
+		background-size: cover;
+		height:150px; 
+		width:100%;
+		
+		margin:0;
+		padding:0;
+
+   	}
+   		div.headerpic1{
+   		background-image: url('https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/675/small/rochelle-nicole-84911.jpg?1516998978');
+		background-size: cover;
+		height:150px; 
+		width:100%;
+		
+		margin:0;
+		padding:0;
+
+   	}
+   	div.headerpic2{
+   		background-image: url('https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/674/small/andrew-neel-137513.jpg?1516221975');
+		background-size: cover;
+		height:150px; 
+		width:100%;
+		
+		margin:0;
+		padding:0;
+
+   	}
+
+   	div.author{
+   		position:relative;
+   		display:block;
+   		top:2px;
+   		left:76%;
+   		font-weight:bold;
+   		width:80px;
+   		
+   	}
+
+   	div.date{
+   		position:relative;
+   		display:block;
+   		top:14px;
+   		font-weight:bold;
+   		
+   	}
+   	div.h3{
+   		position:relative;
+   		font-weight:bold;
+   	}
+   	div.summary{
+   		margin-top:30px;
+   		line-height: 20px;
+   	}
+   	div.summary p{
+   		padding-top:15px;
+   		padding-bottom:15px;
+   	}
+   	nav.page-number{
+   		margin-top:600px;
+   		margin-left:400px;
+   	}
+   	nav.page-number span{
+   		padding:6px 10px 6px 10px;
+   	}
+   	nav.page-number span:hover{
+   		background-color: #EDEDED;
+   		cursor:pointer;
+
+   	}
+footer{
+	background-color:#1A1919;
+	height:452px;
+	width:100%;
+	margin-top:100px;
+	color:white;
+}
+footer div {
+	float:left;
+	
+	margin-top:50px;
+}
+footer div#foot1>ul{
+	margin-left:44px;
+	line-height:40px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+footer div#foot2>ul{
+	margin-left:50px;
+	line-height:32px;
+	font-size:14px;
+	border-left: 1px solid #2D2C2C
+}
+footer div#foot2>ul>li{
+	padding-left:80px;
+}
+footer div#address{
+	margin-left:100px;
+	font-size:12px;
+	border-left: 1px solid #2D2C2C
+}
+footer div#address>address{
+	padding-left:23px;
+}
+div#right{
+	padding-left:30px;
+	font-size:22px;
+	font-weight:bold;
+
+}
+input#mail{
+	height:30px;
+	width:250px;
+	margin-top:10px;
+	font-weight:bold;
+
+}
+input.button1{
+	position:absolute;
+	margin-top:7px;
+	padding: 15px 32px;
+	width:250px;
+	background-color: #dcaf00;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:black;
+
+}
+footer ul li:hover{
+	color:#dca100;
+}
+input.button1:hover{
+	background-color:black;
+	color:white;
+}
+
+
+
