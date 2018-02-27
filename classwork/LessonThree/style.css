@@ -1,0 +1,15 @@
+div{
+	width:100px;
+	height:100px;
+	/*position:static;*/
+	/*opacity:.5;*/}
+.red{background:red;}
+.green{background:green;
+/*position:relative;
+top:10px;
+left:10px;*/
+position:absolute;
+/*top:20px;
+left:40px;*/}
+.blue{background:blue;}
+

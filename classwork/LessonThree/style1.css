@@ -1,0 +1,30 @@
+body{
+	
+	color:white;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+ul li{
+	float:left;
+	width:200px;
+	height:40px;
+		background-color:blue;
+		text-align:center;
+}
+ul li ul {
+	padding-top:22px;
+}
+
+nav ul li:hover{
+	background-color:green;
+}
+nav ul li ul {
+	display:none;
+}
+ul li:hover ul{
+	display:block;
+	}

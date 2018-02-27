@@ -1,0 +1,51 @@
+h1{
+	align:center;
+
+}
+ul{
+	list-style:none;
+
+}
+ul>li{float:left};
+
+}
+
+/*button.icon {
+    background: url(menu.png) no-repeat ;
+    background-position:4px 10px;
+    float: left; 
+    border:0;
+    margin-left: 10px;
+    width: 85px;
+    text-align:right;
+
+
+    height: 30px;
+}*/
+button.search{
+	 border:0;
+   
+    width: 80px;
+   text-align:center;
+    height: 30px;
+}
+button.search:hover{
+	background-color:#d3d3d3;
+	 transition-duration: 1s;}
+button.
+img.ghost:hover{
+	opacity:0;
+	transition:ease 2s;
+}
+button.buttonColor{
+	background-color: #6495ED;
+	position:absolute;
+   
+    left: 89%;
+
+}
+button.buttonPosition{
+	background-color: #6495ED;
+	position:absolute;
+   
+    left: 80%;
